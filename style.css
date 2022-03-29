@@ -38,7 +38,7 @@
     width: 300px;
     height: 350px;
     margin: 0 auto;
-    background-color: #ccc;
+    background-color: #f3f3f3;
     padding: 15px;
     border-radius: 3px;
     position: relative;
@@ -79,10 +79,9 @@
   .keys button {
     list-style: none;
     width: 50px;
-    background-color: #fff;
+    background-color: #f2f2f2;
     margin: 10px 5px;
     padding: 10px;
-    /* border-bottom: 1px solid #dadedc; */
     border-radius: 3px;
     color: rgb(68, 66, 66);
     text-align: center;
@@ -95,7 +94,10 @@
     color: #000;
   }
 
-  .keys .equals {
-    background-color: blue;
-    color: #fff;
+  .keys .operator:hover {
+    background-color: #1281da;
+  }
+
+   .keys .clear:hover {
+    background-color: red;
   }
