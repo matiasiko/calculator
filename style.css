@@ -94,10 +94,10 @@
     color: #000;
   }
 
-  .keys .operator:hover {
+  /* .keys .operator button:hover {
     background-color: #1281da;
   }
 
-   .keys .clear:hover {
-    background-color: red;
+   .clear button:hover {
+    background-color: red; */
   }
